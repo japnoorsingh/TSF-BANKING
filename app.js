@@ -191,7 +191,6 @@ app.get("/transaction", function (req, res) {
 
     });
 });
-let port = process.env.PORT;
 
 const port = process.env.PORT || 3000;
 app.listen(port, function () {
