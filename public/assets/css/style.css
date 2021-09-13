@@ -1,0 +1,120 @@
+.tick{
+   
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30vh
+    
+
+}
+#success{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.details{
+    font-size: 1rem;
+}
+#customer{  
+    height: 100vh;
+}
+.table{
+    margin:80px 0px 20px 0px;
+    
+}
+
+/* HEADER */
+
+.navbar{
+    position:absolute;
+    box-shadow: 0 2px 4px 0 rgb(237 209 77);
+}
+
+.navbar a{
+    color: white;
+    padding:10px;
+    margin-left:10px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:800;
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgb(237 209 77);
+    transition: all 0.3s ease 0s;
+} 
+
+
+/* BODY */
+
+#body{
+    background-image: url("../images/bg.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: white;
+}
+
+
+/* FOOTER */
+
+.footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding:5px;
+    color:white;
+    /* position: absolute; */
+    position: sticky;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-bg{
+    background-color:rgb(56 56 188);
+}
+
+
+/* ALL CUSTOMERS */
+
+.btn{
+    background-color:rgb(56 56 188);
+    color:white;
+    border: 2px solid black;
+    border-radius:50px;
+}
+
+.btn:hover{
+    color: rgb(237 209 77);
+    transition: all 0.3s ease 0s;
+}
+
+.subheading{
+    font-size: 20px;
+}
+
+#customer{  
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.table{
+    margin:100px 0px 20px 0px;
+}
+
+
+/* CUSTOMER DATA */
+
+#customerdata{
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,80 @@
+<%- include ('header'); -%>
+
+    <section id="customerdata">
+
+        <h3 style="margin-top:100px;text-align: center; font-weight:bolder; font-family: 'Poppins', sans-serif;">
+            <%=name%>'s Account
+        </h3>
+        <table class="table table-striped my-4  text-center">
+            <thead>
+                <tr>
+
+                    <th>NAME</th>
+                    <th>EMAIL</th>
+                    <th>BALANCE</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <%= name %>
+                    </td>
+                    <td>
+                        <%= emailId %>
+                    </td>
+                    <td>
+                        <%= currentbalance %>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+    <section id="transfer">
+        <div class="form">
+             <h2 style="font-size:20px;color:rgb(56 56 188);text-align: center; font-size: 25px; font-family: 'Poppins', sans-serif; margin:50px; font-weight:bold;">TRANSFER MONEY</h2>
+            <form id="transferform" action="#" method="POST" style="font-weight: bold;">
+                <table style="margin:0 auto;border:2px solid rgb(86, 53, 233);height:30vh;width:45vw; font-family: 'Poppins', sans-serif;">
+                    <tr>
+                        <td style="padding: 20px;">Transfer To:</td>
+                        <td><select name="actholder" style="padding: 10px; margin:10px">
+                                <% newdata.forEach(function(item){%>
+                                    <option>
+                                        <%= item.name%>
+                                    </option>
+                                    <% }); %>
+
+                            </select>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td style="padding: 20px;">Amount to be transfered :</td>
+                        <td>
+                            <input style="padding: 10px; margin:10px" type="number" name="inputvalue" placeholder="Amount in Rupees" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button class="btn"type="submit" style="background-color:rgb(56 56 188);
+                            color:white;
+                            border: 2px solid black;
+                            border-radius:50px;
+                            margin: 20px;
+                            justify-content: center;
+                            align-items: center;">TRANSFER</button>
+                        </td>
+
+                    </tr>
+                    
+                </table>
+            </form>
+
+        </div>
+    </section>
+
+</body>
+</html>
+    <!-- <%- include ('footer'); -%> -->
