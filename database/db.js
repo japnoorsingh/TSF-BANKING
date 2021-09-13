@@ -1,8 +1,8 @@
-const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://Japnoor:Japnoor5402@cluster0.rcqpa.mongodb.net/baue&w=majority", { useNewUrlParser: true }, { useUnifiedTopology: true });
+const mongoose = raequire("mongoose");
+mongoose.connect("mongpnoor:Japnoor5402@cluster0.rcqpa.mongodb.net/baue&w=majority", { useNewUrlParser: true }, { useUnifiedTopology: true });
 
-const Data = mongoose.model("Data", dataSchema);
-const Tran = mongoose.model("Tran", tranSchema);
+const Data = mongoose.model("Daa", dataSchema);
+const Tran = mongoose.model("Tn", tranSchema);
 
 const data1 = new Data({
     name: "Miguel Mcgowan",

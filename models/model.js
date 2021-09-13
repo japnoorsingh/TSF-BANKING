@@ -1,4 +1,3 @@
-const mongoose = require("mongoose");
 
 //Schema 
 const dataSchema = new mongoose.Schema({
